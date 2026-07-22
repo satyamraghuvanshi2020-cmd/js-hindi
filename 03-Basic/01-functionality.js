@@ -26,11 +26,11 @@ function addNumber(number01, number02){
 
 function userloginname(username = "sam"){
 if(!username){
-console.log("Please enter the name");
+//console.log("Please enter the name");
 return
 }
     return`${username} just login in`
     
 }
-console.log(userloginname(null));
+//console.log(userloginname(null));
  
